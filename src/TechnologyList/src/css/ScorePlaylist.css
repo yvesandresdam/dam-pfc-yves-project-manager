@@ -1,0 +1,22 @@
+#card {
+    border: solid 1px black;
+    border-radius: 5px;
+    display: inline-flex;
+    margin: 20px;
+}
+
+.listheader {
+    color: crimson;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 10px 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px 20px;
+}

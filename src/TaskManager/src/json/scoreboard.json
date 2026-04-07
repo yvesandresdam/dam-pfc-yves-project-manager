@@ -5,7 +5,7 @@
             "mobile layout"
         ],
         "progress1": [
-			"project manager"
+            "project manager"
         ],
         "review1": [
             "layouts"
@@ -17,24 +17,19 @@
             "main layout for cards",
             "create cards"
         ],
-        "completed1" : [
-            "add completed task functionality",			
+        "completed1": [
+            "add completed task functionality",
             "fix cards size"
         ]
     },
     "documentation": {
         "title2": "documentation",
-        "ready2": [
+        "ready2": [],
+        "progress2": [
             "imagenes",
             "fotomontajes",
+            "dar formato",
             "primeras impresiones de prueba"
-        ],
-        "progress2": [
-            "marketing",
-            "servicio que ofrecemos",
-            "precio",
-            "distribucion",
-            "promocion"
         ],
         "review2": [
             "formatos de texto"
@@ -43,21 +38,30 @@
             "indice",
             "formato de la memoria completa",
             "analisis de mercado"
+        ],
+        "completed2": [
+            "marketing",
+            "servicio que ofrecemos",
+            "precio",
+            "distribucion",
+            "promocion"
         ]
     },
     "github": {
         "title3": "github",
         "ready3": [
-            "-"
+            "crear ramas para el proyecto springboot"
         ],
         "progress3": [
-            "mantener actualizados los repositorios"
+            "traspasar repositorios de andreselianor a repositorio principal",
+            "desplegar con vercel"
         ],
         "review3": [
             "-"
         ],
         "production3": [
-            "decidir el repositorio principal"
+            "decidir el repositorio principal",
+            "mantener actualizados los repositorios"
         ]
     },
     "figma": {
@@ -80,7 +84,8 @@
     "springboot": {
         "title5": "springboot",
         "ready5": [
-            "crear las paginas de codigo fuente para desarrolladores"
+            "crear las paginas de codigo fuente para desarrolladores",
+            "crear ramas"
         ],
         "progress5": [
             "base técnica para el landingpage",
@@ -116,6 +121,20 @@
     "postgresql": {
         "title7": "postgresql",
         "ready7": [
+            "modificar puntualmente las tablas",
+            "completar las tablas"
+        ],
+        "progress7": [
+            "acceder a la base de datos desde intellijidea"
+        ],
+        "review7": [
+            "-"
+        ],
+        "production7": [
+            "crear las definiciones de tablas",
+            "crear las tablas en local"
+        ],
+        "completed7": [
             "tabla oficinas",
             "tabla registro",
             "tabla turista",
@@ -125,16 +144,6 @@
             "tabla marketplace",
             "tabla souvenir",
             "tabla recomendaciones"
-        ],
-        "progress7": [
-            "crear las definiciones de tablas",
-            "crear las tablas en local"
-        ],
-        "review7": [
-            "-"
-        ],
-        "production7": [
-            "-"
         ]
     }
 }

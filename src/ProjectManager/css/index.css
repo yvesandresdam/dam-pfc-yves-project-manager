@@ -1,0 +1,14 @@
+main {
+    margin: 50px;
+}
+
+a {
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    border: solid 1px black;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
