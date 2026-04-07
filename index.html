@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Score Task Manager</title>
+    <link rel='stylesheet' href='./src/css/index.css'>
+    <link rel='stylesheet' href='./src/css/taskmanager.css'>
+    <link rel='stylesheet' href='./src/css/memory.css'>
+    <link rel='stylesheet' href='./src/css/github.css'>
+    <link rel='stylesheet' href='./src/css/figma.css'>
+    <link rel='stylesheet' href='./src/css/springboot.css'>
+    <link rel='stylesheet' href='./src/css/thymeleaf.css'>
+    <link rel='stylesheet' href='./src/css/postgresql.css'>
+    <link rel='icon' href='./src/icons/favicon.svg'>
+    <script src="./src/js/layers.js" defer></script>
+    <script src="./src/js/fetchscript.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div id="layer-trello">
+            <div id="content">
+                <h3>Task Manager</h3>
+                <div>
+                    <div>
+                        <div id="review1">
+                            <ul id="review1-list">
+                            </ul>
+                        </div>
+                        <div id="production1">
+                            <ul id="production1-list">
+                            </ul>
+                        </div>
+                        <div id="ready1">
+                            <ul id="ready1-list">
+                            </ul>
+                        </div>
+                        <div id="progress1">
+                            <ul id="progress1-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tagcloud">
+                        <div id="ready1button" onmouseenter="setReady(1)"></div>
+                        <div id="progress1button" onmouseenter="setProgress(1)"></div>
+                        <div id="review1button" onmouseenter="setReview(1)"></div>
+                        <div id="production1button" onmouseenter="setProduction(1)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="layer-documentation">
+            <div id="content">
+                <h3>Documentation</h3>
+                <div>
+                    <div>
+                        <div id="review2">
+                            <ul id="review2-list">
+                            </ul>
+                        </div>
+                        <div id="production2">
+                            <ul id="production2-list">
+                            </ul>
+                        </div>
+                        <div id="ready2">
+                            <ul id="ready2-list">
+                            </ul>
+                        </div>
+                        <div id="progress2">
+                            <ul id="progress2-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tagcloud">
+                        <div id="ready2button" onmouseenter="setReady(2)"></div>
+                        <div id="progress2button" onmouseenter="setProgress(2)"></div>
+                        <div id="review2button" onmouseenter="setReview(2)"></div>
+                        <div id="production2button" onmouseenter="setProduction(2)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="layer-github">
+            <div id="content">
+                <h3>Github</h3>
+                <div>
+                    <div>
+                        <div id="review3">
+                            <ul id="review3-list">
+                            </ul>
+                        </div>
+                        <div id="production3">
+                            <ul id="production3-list">
+                            </ul>
+                        </div>
+                        <div id="ready3">
+                            <ul id="ready3-list">
+                            </ul>
+                        </div>
+                        <div id="progress3">
+                            <ul id="progress3-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tagcloud">
+                        <div id="ready3button" onmouseenter="setReady(3)"></div>
+                        <div id="progress3button" onmouseenter="setProgress(3)"></div>
+                        <div id="review3button" onmouseenter="setReview(3)"></div>
+                        <div id="production3button" onmouseenter="setProduction(3)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="layer-figma">
+            <div id="content">
+                <h3>Figma</h3>
+                <div>
+                    <div>
+                        <div id="review4">
+                            <ul id="review4-list">
+                            </ul>
+                        </div>
+                        <div id="production4">
+                            <ul id="production4-list">
+                            </ul>
+                        </div>
+                        <div id="ready4">
+                            <ul id="ready4-list">
+                            </ul>
+                        </div>
+                        <div id="progress4">
+                            <ul id="progress4-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tagcloud">
+                        <div id="ready4button" onmouseenter="setReady(4)"></div>
+                        <div id="progress4button" onmouseenter="setProgress(4)"></div>
+                        <div id="review4button" onmouseenter="setReview(4)"></div>
+                        <div id="production4button" onmouseenter="setProduction(4)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="layer-springboot">
+            <div id="content">
+                <h3>Springboot</h3>
+                <div>
+                    <div>
+                        <div id="review5">
+                            <ul id="review5-list">
+                            </ul>
+                        </div>
+                        <div id="production5">
+                            <ul id="production5-list">
+                            </ul>
+                        </div>
+                        <div id="ready5">
+                            <ul id="ready5-list">
+                            </ul>
+                        </div>
+                        <div id="progress5">
+                            <ul id="progress5-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tagcloud">
+                        <div id="ready5button" onmouseenter="setReady(5)"></div>
+                        <div id="progress5button" onmouseenter="setProgress(5)"></div>
+                        <div id="review5button" onmouseenter="setReview(5)"></div>
+                        <div id="production5button" onmouseenter="setProduction(5)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="layer-thymeleaf">
+            <div id="content">
+                <h3>Thymeleaf</h3>
+                <div>
+                    <div>
+                        <div id="review6">
+                            <ul id="review6-list">
+                            </ul>
+                        </div>
+                        <div id="production6">
+                            <ul id="production6-list">
+                            </ul>
+                        </div>
+                        <div id="ready6">
+                            <ul id="ready6-list">
+                            </ul>
+                        </div>
+                        <div id="progress6">
+                            <ul id="progress6-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tagcloud">
+                        <div id="ready6button" onmouseenter="setReady(6)"></div>
+                        <div id="progress6button" onmouseenter="setProgress(6)"></div>
+                        <div id="review6button" onmouseenter="setReview(6)"></div>
+                        <div id="production6button" onmouseenter="setProduction(6)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="layer-postgresql">
+            <div id="content">
+                <h3>Postgresql</h3>
+                <div>
+                    <div>
+                        <div id="review7">
+                            <ul id="review7-list">
+                            </ul>
+                        </div>
+                        <div id="production7">
+                            <ul id="production7-list">
+                            </ul>
+                        </div>
+                        <div id="ready7">
+                            <ul id="ready7-list">
+                            </ul>
+                        </div>
+                        <div id="progress7">
+                            <ul id="progress7-list">
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tagcloud">
+                        <div id="ready7button" onmouseenter="setReady(7)"></div>
+                        <div id="progress7button" onmouseenter="setProgress(7)"></div>
+                        <div id="review7button" onmouseenter="setReview(7)"></div>
+                        <div id="production7button" onmouseenter="setProduction(7)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>

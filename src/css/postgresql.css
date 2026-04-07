@@ -1,0 +1,64 @@
+#production7 {
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    border-top: solid 5px black;
+}
+
+#production7button {
+    background-color: black;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+#progress7 {
+    background-color: white;
+    border: solid 1px magenta;
+    border-radius: 10px;
+    border-top: solid 5px magenta;
+}
+
+#progress7button {
+    background-color: magenta;
+}
+
+#ready7 {
+    background-color: white;
+    border: solid 1px cyan;
+    border-radius: 10px;
+    border-top: solid 5px cyan;
+}
+
+#review7 {
+    background-color: white;
+    border: solid 1px yellow;
+    border-radius: 10px;
+    border-top: solid 5px yellow;
+}
+
+#review7button {
+    background-color: yellow;
+}
+
+#ready7,
+#progress7,
+#review7,
+#production7 {
+    height: 300px;
+    position: absolute;
+    width: 300px;
+}
+
+#ready7button {
+    background-color: cyan;
+}
+
+#ready7button,
+#progress7button,
+#review7button,
+#production7button {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}

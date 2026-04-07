@@ -1,0 +1,140 @@
+{
+    "scoreboard": {
+        "title1": "scoreboard",
+        "ready1": [
+            "mobile layout"
+        ],
+        "progress1": [
+			"project manager"
+        ],
+        "review1": [
+            "layouts"
+        ],
+        "production1": [
+            "create main html",
+            "create stylesheet",
+            "create script js",
+            "main layout for cards",
+            "create cards"
+        ],
+        "completed1" : [
+            "add completed task functionality",			
+            "fix cards size"
+        ]
+    },
+    "documentation": {
+        "title2": "documentation",
+        "ready2": [
+            "imagenes",
+            "fotomontajes",
+            "primeras impresiones de prueba"
+        ],
+        "progress2": [
+            "marketing",
+            "servicio que ofrecemos",
+            "precio",
+            "distribucion",
+            "promocion"
+        ],
+        "review2": [
+            "formatos de texto"
+        ],
+        "production2": [
+            "indice",
+            "formato de la memoria completa",
+            "analisis de mercado"
+        ]
+    },
+    "github": {
+        "title3": "github",
+        "ready3": [
+            "-"
+        ],
+        "progress3": [
+            "mantener actualizados los repositorios"
+        ],
+        "review3": [
+            "-"
+        ],
+        "production3": [
+            "decidir el repositorio principal"
+        ]
+    },
+    "figma": {
+        "title4": "figma",
+        "ready4": [
+            "layout de descubrimiento progresivo, de acuerdo a la experiencia obtenida"
+        ],
+        "progress4": [
+            "layout de landing page",
+            "layout de login",
+            "layout de dashboard"
+        ],
+        "review4": [
+            "analisis de competencia layouts"
+        ],
+        "production4": [
+            "arreglar proyecto figma"
+        ]
+    },
+    "springboot": {
+        "title5": "springboot",
+        "ready5": [
+            "crear las paginas de codigo fuente para desarrolladores"
+        ],
+        "progress5": [
+            "base técnica para el landingpage",
+            "base técnica para el login",
+            "base téncica para el dashboard"
+        ],
+        "review5": [
+            "revisar el buen funcionamiento de la pagina servida en localhost"
+        ],
+        "production5": [
+            "seguridad",
+            "login"
+        ]
+    },
+    "thymeleaf": {
+        "title6": "thymeleaf",
+        "ready6": [
+            "html progresivo a la gamificacion"
+        ],
+        "progress6": [
+            "html para landing page",
+            "html para login page",
+            "html para dashboard page",
+            "crear estructuras basicas de html"
+        ],
+        "review6": [
+            "-"
+        ],
+        "production6": [
+            "-"
+        ]
+    },
+    "postgresql": {
+        "title7": "postgresql",
+        "ready7": [
+            "tabla oficinas",
+            "tabla registro",
+            "tabla turista",
+            "tabla residente",
+            "tabla evento",
+            "tabla monumento",
+            "tabla marketplace",
+            "tabla souvenir",
+            "tabla recomendaciones"
+        ],
+        "progress7": [
+            "crear las definiciones de tablas",
+            "crear las tablas en local"
+        ],
+        "review7": [
+            "-"
+        ],
+        "production7": [
+            "-"
+        ]
+    }
+}
