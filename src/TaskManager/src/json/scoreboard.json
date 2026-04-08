@@ -5,21 +5,25 @@
             "mobile layout"
         ],
         "progress1": [
-            "project manager"
+            "add functionalities",
+            "add navbar",
+            "improve style"
         ],
         "review1": [
-            "layouts"
+            
         ],
         "production1": [
             "create main html",
             "create stylesheet",
             "create script js",
             "main layout for cards",
-            "create cards"
+            "create cards",
+            "project manager"
         ],
         "completed1": [
             "add completed task functionality",
-            "fix cards size"
+            "fix cards size",
+            "layouts"
         ]
     },
     "documentation": {
@@ -53,7 +57,6 @@
             "crear ramas para el proyecto springboot"
         ],
         "progress3": [
-            "traspasar repositorios de andreselianor a repositorio principal",
             "desplegar con vercel"
         ],
         "review3": [
@@ -62,6 +65,9 @@
         "production3": [
             "decidir el repositorio principal",
             "mantener actualizados los repositorios"
+        ],
+        "completed3": [            
+            "traspasar repositorios de andreselianor a repositorio principal"
         ]
     },
     "figma": {
