@@ -70,13 +70,6 @@
     margin-right: 25px;
 }
 
-body {
-    display: flex;
-    flex-wrap: wrap;
-    height: 90vh;
-    place-content: top center;
-}
-
 main {
     display: flex;
     flex-wrap: wrap;

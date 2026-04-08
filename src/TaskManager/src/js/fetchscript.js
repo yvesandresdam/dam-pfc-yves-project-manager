@@ -125,6 +125,12 @@ function setDocumentation(documentation) {
         node.textContent = element;
         listproduction.append(node);
     });
+    documentation.completed2.forEach(element => {
+        let node = document.createElement("li");
+        node.textContent = element;
+        node.style.textDecoration = "line-through";
+        listproduction.append(node);
+    });
 }
 
 

@@ -2,12 +2,12 @@
     "scoreboard": {
         "title1": "scoreboard",
         "ready1": [
-            "mobile layout"
         ],
         "progress1": [
             "add functionalities",
-            "add navbar",
-            "improve style"
+            "improve style",            
+            "mobile layout",
+            "add completed strike style"
         ],
         "review1": [
             
@@ -18,7 +18,8 @@
             "create script js",
             "main layout for cards",
             "create cards",
-            "project manager"
+            "project manager",
+            "add navbar"
         ],
         "completed1": [
             "add completed task functionality",
@@ -40,10 +41,10 @@
         ],
         "production2": [
             "indice",
-            "formato de la memoria completa",
-            "analisis de mercado"
+            "formato de la memoria completa"
         ],
         "completed2": [
+            "analisis de mercado",
             "marketing",
             "servicio que ofrecemos",
             "precio",
@@ -54,17 +55,18 @@
     "github": {
         "title3": "github",
         "ready3": [
-            "crear ramas para el proyecto springboot"
+            "-"
         ],
         "progress3": [
-            "desplegar con vercel"
+            "crear ramas para el proyecto springboot"
         ],
         "review3": [
             "-"
         ],
         "production3": [
             "decidir el repositorio principal",
-            "mantener actualizados los repositorios"
+            "mantener actualizados los repositorios",
+            "desplegar con vercel"
         ],
         "completed3": [            
             "traspasar repositorios de andreselianor a repositorio principal"
@@ -90,8 +92,7 @@
     "springboot": {
         "title5": "springboot",
         "ready5": [
-            "crear las paginas de codigo fuente para desarrolladores",
-            "crear ramas"
+            "crear las paginas de codigo fuente para desarrolladores"
         ],
         "progress5": [
             "base técnica para el landingpage",
