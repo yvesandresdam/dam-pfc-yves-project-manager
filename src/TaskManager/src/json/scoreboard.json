@@ -56,7 +56,7 @@
     "github": {
         "title3": "github",
         "ready3": [
-            "-"
+            "readme.md"
         ],
         "progress3": [
             "crear ramas para el proyecto springboot"

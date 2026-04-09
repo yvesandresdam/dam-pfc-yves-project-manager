@@ -1,9 +1,15 @@
 nav {
+    display: flex;
+    justify-content: space-between;
     height: 70px;
     background-color: whitesmoke;
+    border-bottom: solid 1px black;
+    padding: 0px 20px;
+}
+
+nav div {
     display: flex;
     justify-content: flex-end;
-    border-bottom: solid 1px black;
 }
 
 a {
@@ -22,4 +28,15 @@ a:hover {
 
 body {
     margin: 0px;
+}
+
+#splash {
+    place-content: center center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+
+#splashlogo {
+    width: 600px;
 }
