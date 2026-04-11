@@ -12,7 +12,7 @@ nav div {
     justify-content: flex-end;
 }
 
-a {
+.link {
     background-color: rgba(255, 217, 0, 0.30);
     border-radius: 5px;
     height: 50px;
@@ -22,7 +22,7 @@ a {
     margin: 10px;
 }
 
-a:hover {
+.link:hover {
     background-color: rgba(255, 217, 0, 0.50);
 }
 

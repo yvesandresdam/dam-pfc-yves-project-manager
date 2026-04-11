@@ -186,6 +186,13 @@ function setGithub(github) {
         node.textContent = element;
         listproduction.append(node);
     });
+    
+    github.completed3.forEach(element => {
+        let node = document.createElement("li");
+        node.textContent = element;
+        node.style.textDecoration = "line-through";
+        listproduction.append(node);
+    });
 }
 
 function setFigma(figma) {
@@ -237,6 +244,13 @@ function setFigma(figma) {
     figma.production4.forEach(element => {
         let node = document.createElement("li");
         node.textContent = element;
+        listproduction.append(node);
+    });
+    
+    figma.completed4.forEach(element => {
+        let node = document.createElement("li");
+        node.textContent = element;
+        node.style.textDecoration = "line-through";
         listproduction.append(node);
     });
 }
@@ -292,6 +306,13 @@ function setSpringboot(springboot) {
         node.textContent = element;
         listproduction.append(node);
     });
+    
+    springboot.completed5.forEach(element => {
+        let node = document.createElement("li");
+        node.textContent = element;
+        node.style.textDecoration = "line-through";
+        listproduction.append(node);
+    });
 }
 
 function setThymeleaf(thymeleaf) {
@@ -345,6 +366,13 @@ function setThymeleaf(thymeleaf) {
         node.textContent = element;
         listproduction.append(node);
     });
+    
+    thymeleaf.completed6.forEach(element => {
+        let node = document.createElement("li");
+        node.textContent = element;
+        node.style.textDecoration = "line-through";
+        listproduction.append(node);
+    });
 }
 
 function setPostgresql(postgresql) {
@@ -396,6 +424,13 @@ function setPostgresql(postgresql) {
     postgresql.production7.forEach(element => {
         let node = document.createElement("li");
         node.textContent = element;
+        listproduction.append(node);
+    });
+    
+    postgresql.completed7.forEach(element => {
+        let node = document.createElement("li");
+        node.textContent = element;
+        node.style.textDecoration = "line-through";
         listproduction.append(node);
     });
 }

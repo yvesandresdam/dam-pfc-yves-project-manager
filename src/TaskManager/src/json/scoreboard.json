@@ -6,12 +6,11 @@
         "progress1": [
             "add functionalities",
             "improve style",            
-            "mobile layout",
-            "add completed strike style",
-            "splashscreen for pm main"
+            "mobile responsive",
+            "add fonts"
         ],
         "review1": [
-            
+            "splashscreen for pm main"
         ],
         "production1": [
             "create main html",
@@ -25,7 +24,8 @@
         "completed1": [
             "add completed task functionality",
             "fix cards size",
-            "layouts"
+            "layouts",
+            "add completed strike style"
         ]
     },
     "documentation": {
@@ -59,10 +59,8 @@
             "readme.md"
         ],
         "progress3": [
-            "crear ramas para el proyecto springboot"
         ],
         "review3": [
-            "-"
         ],
         "production3": [
             "decidir el repositorio principal",
@@ -70,7 +68,8 @@
             "desplegar con vercel"
         ],
         "completed3": [            
-            "traspasar repositorios de andreselianor a repositorio principal"
+            "traspasar repositorios de andreselianor a repositorio principal",
+            "crear ramas para el proyecto springboot"
         ]
     },
     "figma": {
@@ -79,6 +78,8 @@
             "layout de descubrimiento progresivo, de acuerdo a la experiencia obtenida"
         ],
         "progress4": [
+            "componentes",
+            "layout de flujo de aplicacion",
             "layout de landing page",
             "layout de login",
             "layout de dashboard"
@@ -88,7 +89,8 @@
         ],
         "production4": [
             "arreglar proyecto figma"
-        ]
+        ],
+        "completed4":[]
     },
     "springboot": {
         "title5": "springboot",
@@ -98,6 +100,7 @@
         "progress5": [
             "base técnica para el landingpage",
             "base técnica para el login",
+            "base técnica para el registro",
             "base téncica para el dashboard"
         ],
         "review5": [
@@ -106,7 +109,8 @@
         "production5": [
             "seguridad",
             "login"
-        ]
+        ],
+        "completed5":[]
     },
     "thymeleaf": {
         "title6": "thymeleaf",
@@ -116,15 +120,15 @@
         "progress6": [
             "html para landing page",
             "html para login page",
+            "html para registration page",
             "html para dashboard page",
             "crear estructuras basicas de html"
         ],
-        "review6": [
-            "-"
+        "review6": [            
         ],
-        "production6": [
-            "-"
-        ]
+        "production6": [            
+        ],
+        "completed6":[]
     },
     "postgresql": {
         "title7": "postgresql",

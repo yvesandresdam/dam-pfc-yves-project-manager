@@ -62,3 +62,95 @@
     height: 20px;
     width: 20px;
 }
+
+* {
+    font-family: sans-serif;
+}
+
+#layer {
+    display: flex;
+    gap: 310px;
+    height: 100px;
+    width: 100px;
+}
+
+#layer-trello {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+#layer-documentation {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+#layer-github {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+#layer-figma {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+#layer-springboot {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+#layer-thymeleaf {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+#layer-postgresql {
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+/* CLOUD */
+
+#tagcloud {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 310px;
+    position: relative;
+}
+
+.listHeader {
+    border-bottom: solid 1px black;
+    font-size: 15pt;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin: 20px;
+}
+
+.logo {
+    height: 70px;
+}
+
+
+@media  (width < 600px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+}
