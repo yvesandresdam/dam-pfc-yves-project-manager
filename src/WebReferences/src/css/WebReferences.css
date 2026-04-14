@@ -1,0 +1,28 @@
+.link {
+    padding: 10px;
+    margin: 20px;
+    background-color: lightblue;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+
+.logo {
+    height: 70px;
+}
+
+main {
+    margin: 20px;
+}
+
+#referenceCard{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    background-color: lightblue;
+    margin: 50px;
+}
+
+#mainCards {
+    display: flex;
+    flex-wrap: wrap;
+}
