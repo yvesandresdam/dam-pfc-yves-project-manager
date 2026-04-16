@@ -1,16 +1,16 @@
 {
     "scoreboard": {
         "title1": "scoreboard",
-        "ready1": [
+        "ready1": [		
         ],
-        "progress1": [
-            "add functionalities",
-            "improve style",            
+        "progress1": [   
+			"Completar nav referencias",
+			"Nav esta roto",
+            "splashscreen for pm main", 
             "mobile responsive",
             "add fonts"
         ],
         "review1": [
-            "splashscreen for pm main"
         ],
         "production1": [
             "create main html",
@@ -25,7 +25,9 @@
             "add completed task functionality",
             "fix cards size",
             "layouts",
-            "add completed strike style"
+            "add completed strike style",
+            "improve style",
+            "add functionalities"       
         ]
     },
     "documentation": {
@@ -34,14 +36,15 @@
         "progress2": [
             "imagenes",
             "fotomontajes",
-            "primeras impresiones de prueba"
+			"1 imagen nanobanana",
+			"imprimir primer borrador de memoria"
         ],
         "review2": [
-            "formatos de texto"
         ],
         "production2": [
             "indice",
-            "formato de la memoria completa"
+            "formato de la memoria completa",
+            "primeras impresiones de prueba"
         ],
         "completed2": [
             "analisis de mercado",
@@ -50,7 +53,8 @@
             "precio",
             "distribucion",
             "promocion",            
-            "dar formato"
+            "dar formato",
+            "formatos de texto"
         ]
     },
     "github": {
@@ -59,6 +63,7 @@
             "readme.md"
         ],
         "progress3": [
+			"crear carpeta en onedrive"
         ],
         "review3": [
         ],
@@ -75,7 +80,8 @@
     "figma": {
         "title4": "figma",
         "ready4": [
-            "layout de descubrimiento progresivo, de acuerdo a la experiencia obtenida"
+            "layout de descubrimiento progresivo, de acuerdo a la experiencia obtenida",
+			"arreglar ficheros de layout"
         ],
         "progress4": [
             "paleta de colores, mar montaña",
@@ -124,30 +130,31 @@
             "html para landing page",
             "html para login page",
             "html para registration page",
-            "html para dashboard page",
-            "crear estructuras basicas de html"
+            "html para dashboard page"
         ],
         "review6": [            
         ],
         "production6": [            
         ],
-        "completed6":[]
+        "completed6":[
+            "crear estructuras basicas de html"
+		]
     },
     "postgresql": {
         "title7": "postgresql",
         "ready7": [
-            "modificar puntualmente las tablas",
-            "completar las tablas"
+            "completar las tablas",
+			"diseño de tablas"			
         ],
         "progress7": [
-            "acceder a la base de datos desde intellijidea"
-        ],
-        "review7": [
-            "-"
-        ],
-        "production7": [
+            "acceder a la base de datos desde intellijidea",
             "crear las definiciones de tablas",
             "crear las tablas en local"
+        ],
+        "review7": [
+            
+        ],
+        "production7": [
         ],
         "completed7": [
             "tabla oficinas",
@@ -158,7 +165,8 @@
             "tabla monumento",
             "tabla marketplace",
             "tabla souvenir",
-            "tabla recomendaciones"
+            "tabla recomendaciones",
+            "modificar puntualmente las tablas"
         ]
     }
 }
