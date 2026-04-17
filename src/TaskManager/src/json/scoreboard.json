@@ -8,7 +8,7 @@
 			"Nav esta roto",
             "splashscreen for pm main", 
             "mobile responsive",
-            "add fonts"
+            "add fonts / panel de tendencias"
         ],
         "review1": [
         ],
@@ -36,7 +36,6 @@
         "progress2": [
             "imagenes",
             "fotomontajes",
-			"1 imagen nanobanana",
 			"imprimir primer borrador de memoria"
         ],
         "review2": [
@@ -54,7 +53,8 @@
             "distribucion",
             "promocion",            
             "dar formato",
-            "formatos de texto"
+            "formatos de texto",
+			"1 imagen nanobanana"
         ]
     },
     "github": {
