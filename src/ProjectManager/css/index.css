@@ -1,6 +1,47 @@
+* {
+    font-family: texts;
+}
+
 :root {
     --color-nav: #fffc4b55;
     --color-nav-focus: #fffb0a55;
+}
+
+#cloudtag {
+    display: flex;
+}
+
+#splash {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+    place-content: center center;
+}
+
+#splashlogo {
+    width: 600px;
+}
+
+.link {
+    background-color: var(--color-nav);
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.link:hover {
+    background-color: var(--color-nav-focus);
+}
+
+.simplelink {
+    background-color: none;
+    cursor: pointer;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
 }
 
 @font-face {
@@ -8,62 +49,20 @@
     src: url(../fonts/RedHatDisplay-Regular.ttf);
 }
 
-* {
-    font-family: texts;
+body {
+    margin: 0px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
     background-color: whitesmoke;
     border-bottom: solid 1px black;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
     padding: 0px 20px;
 }
 
 nav div {
     display: flex;
     justify-content: flex-end;
-}
-
-.link {
-    background-color: var(--color-nav);
-    border-radius: 5px;
-    height: 50px;
-    border: solid 1px black;
-    cursor: pointer;
-    padding: 10px;
-    margin: 10px;
-}
-
-.simplelink {
-    background-color: none;
-    height: 50px;
-    cursor: pointer;
-    padding: 10px;
-    margin: 10px;
-}
-
-.link:hover {
-    background-color: var(--color-nav-focus);
-}
-
-body {
-    margin: 0px;
-}
-
-#splash {
-    place-content: center center;
-    display: flex;
-    flex-wrap: wrap;
-    height: 70vh;
-}
-
-#splashlogo {
-    width: 600px;
-}
-
-
-#cloudtag {
-    display: flex;
 }

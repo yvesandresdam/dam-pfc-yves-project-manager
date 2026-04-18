@@ -1,3 +1,73 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#cloudtag {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 50px;
+    width: 90vw;
+}
+
+#layer {
+    display: flex;
+    gap: 310px;
+    height: 100px;
+    width: 100px;
+}
+
+#layer-documentation {
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+}
+
+#layer-figma {
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+}
+
+#layer-github {
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+}
+
+#layer-postgresql {
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+}
+
+#layer-springboot {
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+}
+
+#layer-thymeleaf {
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+}
+
+#layer-trello {
+    display: flex;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+}
+
 #production1 {
     background-color: white;
     border: solid 1px black;
@@ -19,6 +89,15 @@
     border-top: solid 5px magenta;
 }
 
+#progress1button,
+#production1button,
+#ready1button,
+#review1button {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
 #progress1button {
     background-color: magenta;
 }
@@ -28,6 +107,19 @@
     border: solid 1px cyan;
     border-radius: 10px;
     border-top: solid 5px cyan;
+}
+
+#ready1,
+#progress1,
+#production1,
+#review1 {
+    height: 300px;
+    position: absolute;
+    width: 300px;
+}
+
+#ready1button {
+    background-color: cyan;
 }
 
 #review1 {
@@ -41,89 +133,27 @@
     background-color: yellow;
 }
 
-#ready1,
-#progress1,
-#review1,
-#production1 {
-    height: 300px;
-    position: absolute;
-    width: 300px;
-}
-
-#ready1button {
-    background-color: cyan;
-}
-
-#ready1button,
-#progress1button,
-#review1button,
-#production1button {
-    cursor: pointer;
-    height: 20px;
-    width: 20px;
-}
-
-* {
-    font-family: sans-serif;
-}
-
-#layer {
-    display: flex;
-    gap: 310px;
-    height: 100px;
-    width: 100px;
-}
-
-#layer-trello {
-    display: flex;
-    height: 300px;
-    width: 300px;
-}
-
-#layer-documentation {
-    display: flex;
-    height: 300px;
-    width: 300px;
-}
-
-#layer-github {
-    display: flex;
-    height: 300px;
-    width: 300px;
-}
-
-#layer-figma {
-    display: flex;
-    height: 300px;
-    width: 300px;
-}
-
-#layer-springboot {
-    display: flex;
-    height: 300px;
-    width: 300px;
-}
-
-#layer-thymeleaf {
-    display: flex;
-    height: 300px;
-    width: 300px;
-}
-
-#layer-postgresql {
-    display: flex;
-    height: 300px;
-    width: 300px;
-}
-
-/* CLOUD */
-
 #tagcloud {
     display: flex;
     flex-direction: column;
     gap: 10px;
     left: 310px;
     position: relative;
+}
+
+.link {
+    background-color: var(--color-nav);
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: texts;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.link:hover {
+    background-color: var(--color-nav-focus);
 }
 
 .listHeader {
@@ -135,35 +165,37 @@
     margin-right: 25px;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 60px;
-    margin: 20px;
-}
-
 .logo {
     height: 70px;
 }
 
-
-@media (width < 600px) {
-    main {
-        display: flex;
-        justify-content: center;
-    }
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    margin: 20px;
 }
 
 .navelements {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    background: linear-gradient(135deg, red, blue, orange);
-    margin: 50px;
     animation: animotion 3s ease-in-out infinite;
+    background: linear-gradient(135deg, red, blue, orange);
     background-size: 300% 300%;
+    border-radius: 50%;
+    height: 30px;
+    margin: 50px;
     transition: transform 3s;
+    width: 30px;
+}
+
+:root {
+    --color-nav: #fffc4b55;
+    --color-nav-focus: #fffb0a55;
+}
+
+@font-face {
+    font-family: texts;
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
 }
 
 @keyframes animotion {
@@ -186,4 +218,35 @@ main {
     100% {
         background-position: 0 50%;
     }
+}
+
+@media (width < 600px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+h3 {
+    margin: 20px;
+}
+
+nav {
+    background-color: whitesmoke;
+    border-bottom: solid 1px black;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+nav div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    height: 250px;
+    margin: 20px 20px 0px 30px;
+    overflow-y: auto;
 }
