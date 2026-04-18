@@ -48,3 +48,8 @@ body {
 #splashlogo {
     width: 600px;
 }
+
+
+#cloudtag {
+    display: flex;
+}
