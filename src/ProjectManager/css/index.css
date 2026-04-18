@@ -1,3 +1,17 @@
+:root {
+    --color-nav: #fffc4b55;
+    --color-nav-focus: #fffb0a55;
+}
+
+@font-face {
+    font-family: texts;
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+}
+
+* {
+    font-family: texts;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -13,7 +27,7 @@ nav div {
 }
 
 .link {
-    background-color: rgba(255, 217, 0, 0.30);
+    background-color: var(--color-nav);
     border-radius: 5px;
     height: 50px;
     border: solid 1px black;
@@ -31,7 +45,7 @@ nav div {
 }
 
 .link:hover {
-    background-color: rgba(255, 217, 0, 0.50);
+    background-color: var(--color-nav-focus);
 }
 
 body {
