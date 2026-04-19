@@ -4,11 +4,8 @@
         "ready1": [		
         ],
         "progress1": [   
-			"Completar nav referencias",
-			"Nav esta roto",
-            "splashscreen for pm main", 
             "mobile responsive",
-            "add fonts / panel de tendencias"
+            "fixes layout"
         ],
         "review1": [
         ],
@@ -19,7 +16,9 @@
             "main layout for cards",
             "create cards",
             "project manager",
-            "add navbar"
+            "add navbar",
+            "splashscreen for pm main", 
+            "add fonts / panel de tendencias"
         ],
         "completed1": [
             "add completed task functionality",
@@ -27,23 +26,26 @@
             "layouts",
             "add completed strike style",
             "improve style",
-            "add functionalities"       
+            "add functionalities",
+			"Completar nav referencias"      
         ]
     },
     "documentation": {
         "title2": "documentation",
         "ready2": [],
         "progress2": [
-            "imagenes",
-            "fotomontajes",
-			"imprimir primer borrador de memoria"
+            "actualizar canva presentacion",
+            "practicar presentaciones grabadas",
+            "fotomontajes nanobanana",
+			"analisis de mercado"
         ],
         "review2": [
         ],
         "production2": [
             "indice",
             "formato de la memoria completa",
-            "primeras impresiones de prueba"
+            "primeras impresiones de prueba",
+            "imprimir primer borrador de memoria"
         ],
         "completed2": [
             "analisis de mercado",
@@ -60,10 +62,9 @@
     "github": {
         "title3": "github",
         "ready3": [
-            "readme.md"
         ],
         "progress3": [
-			"crear carpeta en onedrive"
+            "readme.md"
         ],
         "review3": [
         ],
@@ -74,7 +75,8 @@
         ],
         "completed3": [            
             "traspasar repositorios de andreselianor a repositorio principal",
-            "crear ramas para el proyecto springboot"
+            "crear ramas para el proyecto springboot",
+			"crear carpeta en onedrive"
         ]
     },
     "figma": {
@@ -87,7 +89,6 @@
             "paleta de colores, mar montaña",
             "panel de elementos de diseño",
             "componentes",
-            "layout de flujo de aplicacion",
             "layout de landing page",
             "layout de registration",
             "layout de login",
@@ -97,7 +98,8 @@
             "analisis de competencia layouts"
         ],
         "production4": [
-            "arreglar proyecto figma"
+            "arreglar proyecto figma",
+            "layout de flujo de aplicacion"
         ],
         "completed4":[]
     },
