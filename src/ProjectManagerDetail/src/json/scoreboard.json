@@ -1,7 +1,9 @@
 {
     "scoreboard": {
         "title1": "scoreboard",
-        "ready1": [],
+        "ready1": [
+            "icebreaking picture"
+        ],
         "progress1": [],
         "review1": [],
         "production1": [],

@@ -25,3 +25,18 @@ ul {
 .logo {
     height: 70px;
 }
+
+.link {
+    background-color: var(--color-nav);
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: texts;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.link:hover {
+    background-color: var(--color-nav-focus);
+}
