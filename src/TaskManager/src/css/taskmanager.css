@@ -178,7 +178,7 @@ main {
 
 .navelements {
     animation: animotion 3s ease-in-out infinite;
-    background: linear-gradient(135deg, orange, violet);
+    background: linear-gradient(270deg, orange, violet);
     background-size: 200% 200%;
     border-radius: 50%;
     height: 20px;
