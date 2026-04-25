@@ -215,6 +215,7 @@ header div {
     transform-origin: 50% 50%;
     transition: all ease-in-out 100ms;
     cursor: pointer;
+    transform: rotate(180deg);
 }
 
 .link {

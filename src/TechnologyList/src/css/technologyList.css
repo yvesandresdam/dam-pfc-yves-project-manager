@@ -40,3 +40,45 @@ ul {
 .link:hover {
     background-color: var(--color-nav-focus);
 }
+
+#cloudtags {
+    align-items: start;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 90vw;
+}
+
+#cloudtag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 50px;
+}
+
+#cloudnav {
+    width: 50px;
+}
+
+.icon-rightChevron {
+    width: 15px;
+    opacity: 0.5;
+    transform-origin: 50% 50%;
+    transition: all ease-in-out 100ms;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.navelements {
+    animation: animotion 3s ease-in-out infinite;
+    background: linear-gradient(270deg, orange, violet);
+    background-size: 200% 200%;
+    border-radius: 50%;
+    height: 20px;
+    transition: transform 3s;
+    width: 20px;
+}
+.navtexts {
+    display: none;
+}
