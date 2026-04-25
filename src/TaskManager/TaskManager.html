@@ -15,6 +15,9 @@
     <link rel='icon' href='./src/icons/favicon.svg'>
     <script src="./src/js/layers.js" defer></script>
     <script src="./src/js/fetchscript.js" defer></script>
+    <script src="./src/js/animations.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -25,18 +28,28 @@
         </div>
     </header>
     <main>
-        <section id="cloudtag">
-            <p>&lt;</p>
-            <a href="../TechnologyList/TechnologyList.html">
-                <div class="navelements" title="technologies list"></div>
-            </a>
-            <a href="../WebReferences/WebReferences.html">
-                <div class="navelements" title="web references"></div>
-            </a>
-            <a href="../ProjectManagerDetail/ProjectManagerDetail.html">
-                <div class="navelements" title="projectmanager²"></div>
-            </a>
-            <p>&gt;</p>
+        <section id="cloudtags">
+            <div id="cloudtag">
+                <a href="../TechnologyList/TechnologyList.html">
+                    <div class="navelements" title="technologies list"></div>
+                </a>
+                <p class="navtexts">tech</p>
+            </div>
+            <div id="cloudtag">
+                <a href="../WebReferences/WebReferences.html">
+                    <div class="navelements" title="web references"></div>
+                </a>
+                <p class="navtexts">ref</p>
+            </div>
+            <div id="cloudtag">
+                <a href="../LearnPanel/LearnPanel.html">
+                    <div class="navelements" title="learn panel"></div>
+                </a>
+                <p class="navtexts">learn</p>
+            </div>
+            <div id="cloudnav">
+                <img class="icon-rightChevron" src="../ProjectManager/icons/right-chevron.svg">
+            </div>
         </section>
         <section id="layers">
             <div id="layer-trello">
@@ -262,7 +275,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
     </main>
 </body>
 

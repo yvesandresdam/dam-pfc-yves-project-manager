@@ -1,15 +1,68 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Google Sans Flex';
     margin: 0px;
     padding: 0px;
 }
 
-#cloudtag {
-    align-items: center;
+
+
+:root {
+    --color-nav: #fffc4b55;
+    --color-nav-focus: #fffb0a55;
+}
+
+@font-face {
+    font-family: texts;
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+}
+
+@keyframes animotion {
+    0% {
+        background-position: 50% 50%;
+    }
+
+    25% {
+        background-position: 20% 50%;
+    }
+
+    50% {
+        background-position: 50% 50%;
+    }
+
+    75% {
+        background-position: 70% 50%;
+    }
+
+    100% {
+        background-position: 50% 50%;
+    }
+}
+
+@media (width < 600px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#cloudtags {
+    align-items: start;
     display: flex;
+    gap: 30px;
     justify-content: center;
     width: 90vw;
-    gap: 30px;
+}
+
+#cloudtag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 50px;
+}
+
+#cloudnav {
+    width: 50px;
 }
 
 #layer {
@@ -61,6 +114,13 @@
     width: 300px;
 }
 
+#layers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
 #production1 {
     background-color: white;
     border: solid 1px black;
@@ -70,9 +130,6 @@
 
 #production1button {
     background-color: black;
-    cursor: pointer;
-    height: 20px;
-    width: 20px;
 }
 
 #progress1 {
@@ -80,6 +137,10 @@
     border: solid 1px magenta;
     border-radius: 10px;
     border-top: solid 5px magenta;
+}
+
+#progress1button {
+    background-color: magenta;
 }
 
 #progress1button,
@@ -91,15 +152,15 @@
     width: 20px;
 }
 
-#progress1button {
-    background-color: magenta;
-}
-
 #ready1 {
     background-color: white;
     border: solid 1px cyan;
     border-radius: 10px;
     border-top: solid 5px cyan;
+}
+
+#ready1button {
+    background-color: cyan;
 }
 
 #ready1,
@@ -109,10 +170,6 @@
     height: 300px;
     position: absolute;
     width: 300px;
-}
-
-#ready1button {
-    background-color: cyan;
 }
 
 #review1 {
@@ -132,6 +189,32 @@
     gap: 10px;
     left: 310px;
     position: relative;
+}
+
+h3 {
+    margin: 20px;
+}
+
+header {
+    background-color: whitesmoke;
+    border-bottom: solid 1px black;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+header div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-rightChevron {
+    width: 15px;
+    opacity: 0.5;
+    transform-origin: 50% 50%;
+    transition: all ease-in-out 100ms;
+    cursor: pointer;
 }
 
 .link {
@@ -165,15 +248,8 @@
 main {
     display: flex;
     flex-direction: column;
-    margin: 50px;
     gap: 30px;
-}
-
-#layers {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    justify-content: center
+    margin: 50px;
 }
 
 .navelements {
@@ -185,85 +261,12 @@ main {
     transition: transform 3s;
     width: 20px;
 }
-
-:root {
-    --color-nav: #fffc4b55;
-    --color-nav-focus: #fffb0a55;
-}
-
-@font-face {
-    font-family: texts;
-    src: url(../fonts/RedHatDisplay-Regular.ttf);
-}
-
-@keyframes animotion {
-    0% {
-        background-position: 50% 50%;
-    }
-
-    25% {
-        background-position: 20% 50%;
-    }
-
-    50% {
-        background-position: 50% 50%;
-    }
-
-    75% {
-        background-position: 70% 50%;
-    }
-
-    100% {
-        background-position: 50% 50%;
-    }
-}
-
-@media (width < 600px) {
-    main {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-h3 {
-    margin: 20px;
-}
-
-header {
-    background-color: whitesmoke;
-    border-bottom: solid 1px black;
-    display: flex;
-    height: 70px;
-    justify-content: space-between;
-    padding: 0px 20px;
-}
-
-header div {
-    display: flex;
-    justify-content: flex-end;
+.navtexts {
+    display: none;
 }
 
 ul {
     height: 250px;
     margin: 20px 20px 0px 30px;
     overflow-y: auto;
-}
-
-.logo {
-    height: 70px;
-}
-
-.link {
-    background-color: var(--color-nav);
-    border: solid 1px black;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: texts;
-    height: 50px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.link:hover {
-    background-color: var(--color-nav-focus);
 }
