@@ -127,17 +127,18 @@
     "thymeleaf": {
         "title6": "thymeleaf",
         "ready6": [
-            "html progresivo a la gamificacion"
+            
         ],
         "progress6": [
-            "html para landing page",
-            "html para login page",
-            "html para registration page",
-            "html para dashboard page"
+            "html progresivo a la gamificacion"
         ],
         "review6": [            
         ],
-        "production6": [            
+        "production6": [  
+            "html para landing page",
+            "html para login page",
+            "html para registration page",
+            "html para dashboard page"          
         ],
         "completed6":[
             "crear estructuras basicas de html"
