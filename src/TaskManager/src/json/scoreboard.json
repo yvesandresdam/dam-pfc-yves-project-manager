@@ -88,6 +88,10 @@
             "layout de descubrimiento progresivo, de acuerdo a la experiencia obtenida"
         ],
         "progress4": [
+            "navegacion entre pantallas"
+        ],
+        "review4": [
+            "analisis de competencia layouts",
             "paleta de colores, mar montaña",
             "panel de elementos de diseño",
             "componentes",
@@ -95,9 +99,6 @@
             "layout de registration",
             "layout de login",
             "layout de dashboard"
-        ],
-        "review4": [
-            "analisis de competencia layouts"
         ],
         "production4": [
             "arreglar proyecto figma",
