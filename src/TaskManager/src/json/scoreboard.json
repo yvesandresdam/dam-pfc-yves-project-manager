@@ -34,8 +34,7 @@
         "ready2": [],
         "progress2": [
             "actualizar canva presentacion",
-            "practicar presentaciones grabadas",
-            "primer documento completo"
+            "practicar presentaciones grabadas"
         ],
         "review2": [
         ],
@@ -59,7 +58,8 @@
             "dar formato",
             "formatos de texto",
 			"1 imagen nanobanana",            
-            "tablas economicas"
+            "tablas economicas",
+            "primer documento completo"
         ]
     },
     "github": {
@@ -85,8 +85,7 @@
     "figma": {
         "title4": "figma",
         "ready4": [
-            "layout de descubrimiento progresivo, de acuerdo a la experiencia obtenida",
-			"arreglar ficheros de layout"
+            "layout de descubrimiento progresivo, de acuerdo a la experiencia obtenida"
         ],
         "progress4": [
             "paleta de colores, mar montaña",
@@ -102,7 +101,8 @@
         ],
         "production4": [
             "arreglar proyecto figma",
-            "layout de flujo de aplicacion"
+            "layout de flujo de aplicacion",
+			"arreglar ficheros de layout"
         ],
         "completed4":[]
     },
@@ -112,10 +112,7 @@
             "crear las paginas de codigo fuente para desarrolladores"
         ],
         "progress5": [
-            "base técnica para el landingpage",
-            "base técnica para el login",
-            "base técnica para el registro",
-            "base téncica para el dashboard"
+            "gestion de la clases de la aplicacion"
         ],
         "review5": [
             "revisar el buen funcionamiento de la pagina servida en localhost"
@@ -152,9 +149,7 @@
 			"diseño de tablas"			
         ],
         "progress7": [
-            "acceder a la base de datos desde intellijidea",
-            "crear las definiciones de tablas",
-            "crear las tablas en local"
+            "relaciones entre tablas"
         ],
         "review7": [
             
@@ -171,7 +166,10 @@
             "tabla marketplace",
             "tabla souvenir",
             "tabla recomendaciones",
-            "modificar puntualmente las tablas"
+            "modificar puntualmente las tablas",            
+            "acceder a la base de datos desde intellijidea",
+            "crear las definiciones de tablas",
+            "crear las tablas en local"
         ]
     }
 }
